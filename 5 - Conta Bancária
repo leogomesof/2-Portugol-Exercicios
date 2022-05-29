@@ -1,0 +1,36 @@
+Algoritmo "Exercício 5"
+Var
+saldo:inteiro
+palavra:caractere
+deposito:inteiro
+saque:inteiro
+negativo:inteiro
+Inicio
+saldo <- 100
+enquanto (saldo > 0) ou (saldo < 0) ou (negativo = 1) faca
+escreval("Seu saldo é de: R$", saldo)
+escreval("Digite: saldo, para ver o saldo novamente")
+escreval("Digite: deposito, para depositar")
+escreval("Digite: saque, para sacar")
+escreval(" ")
+leia(palavra)
+se (palavra = "saldo") entao
+fimse
+ se (palavra = "deposito") entao
+  escreva("Digite o valor do depósito: R$")
+  leia(deposito)
+  saldo <- saldo + deposito
+ fimse
+se (palavra = "saque") entao
+ escreva("Digite o valor do saque: R$")
+ leia(saque)
+ saldo <- saldo - saque
+fimse
+se (saldo <= 0) entao
+  negativo <- 1
+fimse
+se (negativo = 1) entao
+ escreval("CONTA ESTOURADA")
+fimse
+fimenquanto
+Fimalgoritmo
