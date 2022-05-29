@@ -1,0 +1,12 @@
+Algoritmo "Exercício 3"
+Var
+a:inteiro
+Inicio
+escreval("Digite o número: ")
+leia(a)
+se (a mod 2 = 0) entao
+ escreval("Número Par")
+senao
+ escreval("Número Ímpar")
+fimse
+Fimalgoritmo
