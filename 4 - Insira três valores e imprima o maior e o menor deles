@@ -1,0 +1,25 @@
+Algoritmo "Exercício 4"
+Var
+a:inteiro //numero 1
+b:inteiro //numero 2
+c:inteiro //numero 3
+maior:inteiro
+menor:inteiro
+Inicio
+escreval("digite o primeiro, o segundo e o terceiro número: ")
+leia(a,b,c)
+se (a > b) entao
+ maior <- a
+ menor <- b
+  senao
+  maior <- b
+  menor <- a
+fimse
+se (c > maior) entao
+ maior <- c
+ senao
+ menor <- c
+fimse
+escreval(maior, " é o maior número")
+escreval(menor, " é o menor número")
+Fimalgoritmo
