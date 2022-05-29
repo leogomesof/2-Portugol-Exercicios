@@ -1,0 +1,22 @@
+Algoritmo "Informe se um valor é positivo ou negativo."
+Var
+valor:inteiro
+a:inteiro
+Inicio
+//Seção de Comandos
+a<-0
+enquanto (a=0) faca
+escreval("Digite um número positivo ou negativo: ")
+leia(valor)
+//Condição
+se(valor > 0) entao
+ escreval(valor, " é positivo")
+ senao
+ se (valor = 0) entao
+ escreval(valor, " é 0, irmão...")
+  senao
+  escreval(valor, " é negativo")
+ fimse
+fimse
+fimenquanto
+Fimalgoritmo
