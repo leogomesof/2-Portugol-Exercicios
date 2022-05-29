@@ -1,0 +1,23 @@
+Algoritmo "Exercício 8"
+Var
+r:real //renda
+a:real //alíquota
+Inicio
+r<-0
+enquanto (r >= 0) faça
+escreval("")
+escreva("digite o valor da renda anual: R$")
+leia(r)
+se (r < 10000) entao
+ escreval("Isento")
+ fimse
+se (r>=10000) e (r<=25000) entao
+ a<-r*0.1
+ escreval ("Dedução de R$", a:1:2)
+fimse
+se (r>25000) entao
+ a<-r*0.25
+ escreval("Dedução de R$", a:1:2)
+fimse
+fimenquanto
+Fimalgoritmo
