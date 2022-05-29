@@ -1,0 +1,14 @@
+Algoritmo "Exercício 7"
+Var
+P1:real
+P2:real
+P3:real //nota máxima: 12
+r:real //resultado
+m:real //media
+inicio
+escreval("digite o valor da Prova 1, Prova 2 e Prova 3")
+leia(P1,P2,P3)
+r<-P1+P2+P3
+m<-r/3
+escreval("a média desse aluno é de: ", m)
+Fimalgoritmo
