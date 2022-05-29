@@ -1,0 +1,15 @@
+Algoritmo "Digite 2 valores inteiros e diga se é multiplo ou não"
+Var
+a:inteiro 
+b:inteiro 
+Inicio
+// Seção de Comandos
+escreval("digite o valor 1 e valor 2")
+leia(a,b)
+//condição
+se (a mod b = 0) entao
+ escreval(a, " e", b, " são múltiplos.")
+ senao
+  escreval(a, " e", b, " não são múltiplos.")
+ fimse
+Fimalgoritmo
