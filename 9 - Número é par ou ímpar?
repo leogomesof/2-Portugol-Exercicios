@@ -1,0 +1,15 @@
+Algoritmo "Exercício 9"
+Var
+n:inteiro //numero
+Inicio
+n <- 0
+enquanto (n >= 0) faca
+  escreva("digite o número: ")
+  leia(n)
+  se (n mod 2 = 0) entao
+  escreval("Número Par")
+   senao
+   escreval("Numero Ímpar")
+  fimse
+fimenquanto
+Fimalgoritmo
