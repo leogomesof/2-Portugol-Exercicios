@@ -1,0 +1,37 @@
+Algoritmo "Se tirar 4 em qualquer matéria, reprovado. Acima de 5 aprovado."
+Var
+nome:caractere
+pt:inteiro
+mt:inteiro
+cg:inteiro
+media:real
+notas:inteiro
+a:inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+a<-1
+enquanto (a=1) faca
+escreval("Digite o nome: ")
+leia(nome)
+escreval("digite a nota em português, matemática e conhecimentos gerais: ")
+leia(pt,mt,cg)
+//condições
+notas <- pt + mt + cg
+media <- notas / 3
+se (pt <= 4) ou (mt <= 4) ou (cg <= 4) entao
+ escreval(nome, " está reprovado")
+ escreval("Nota em Português: ", pt)
+ escreval("Nota em Matemática:", mt)
+ escreval("Nota em Conhecimentos Gerais:", cg)
+ escreval("Média: ", media)
+senao
+ se (media >= 5) entao
+   escreval(nome, " está aprovado")
+   escreval("Nota em Português: ", pt)
+   escreval("Nota em Matemática:", mt)
+   escreval("Nota em Conhecimentos Gerais:", cg)
+   escreval("Média: ", media)
+ fimse
+fimse
+fimenquanto
+ Fimalgoritmo
